@@ -1,14 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import ChatsListScreen from './components/ChatsListScreen'
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+const App = () => (
+  <div className="App">
       <ChatsListScreen />
-    </div>
-  );
-}
+  </div>
+)
 
 export default App;
